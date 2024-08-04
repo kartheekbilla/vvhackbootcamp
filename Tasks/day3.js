@@ -36,5 +36,5 @@ function checkPalindrome() {
     const reversedStr = cleanedStr.split('').reverse().join('');
     const isPalindrome = cleanedStr === reversedStr;
 
-    result.textContent = isPalindrome ? 'The string is a palindrome.' : 'The string is not a palindrome.';
+    result.textContent = isPalindrome ? `${str} is a palindrome.` : `${str} is not a palindrome.`;
 }
